@@ -214,8 +214,4 @@ A GPU is recommended for the transformer notebooks (mixed precision `fp16` is en
 
 ---
 
-<div align="center">
 
-*Natural Language Processing · Final-Term Project · AIUB · Summer 2025–2026*
-
-</div>
