@@ -163,7 +163,7 @@ Class probabilities from BERT and DistilBERT (softmax of logits) are **averaged 
 | Preprocessing | pandas, NumPy, NLTK (`punkt`, `stopwords`), spaCy (`en_core_web_sm`) |
 | Deep learning | PyTorch, Hugging Face Transformers (`Trainer`, `EarlyStoppingCallback`) |
 | Evaluation | scikit-learn metrics (accuracy, weighted precision / recall / F1) |
-| Environment | Google Colab (preprocessing), Kaggle GPU notebooks (BERT / DistilBERT / ensemble) |
+| Environment | Kaggle GPU notebooks (BERT / DistilBERT / ensemble) |
 
 ---
 
@@ -174,8 +174,8 @@ Class probabilities from BERT and DistilBERT (softmax of logits) are **averaged 
 **1. Clone and install**
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo>
+git clone https://github.com/Musfiq009/News-Text-Classification-using-Transformers.git
+cd News-Text-Classification-using-Transformers
 pip install pandas numpy nltk spacy scikit-learn torch transformers
 python -m spacy download en_core_web_sm
 ```
